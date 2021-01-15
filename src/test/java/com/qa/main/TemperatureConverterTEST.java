@@ -16,7 +16,7 @@ public class TemperatureConverterTEST {
 		double result = temp.convertFahrenheitToCelsius(5);
 		
 		assertTrue(temp instanceof TemperatureConverter);
-		assertEquals(((5 / 9) * (5 - 32)), result);
+		assertEquals(((double) (5 / 9) * (5 - 32)), result);
 	}
 
 	@Test
